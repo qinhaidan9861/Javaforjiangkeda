@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8898f2b7-024d-4a48-8d7d-ef4b4b453dd7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,83 +25,122 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kS63cZrfcjX6SDaDMUdCRmhgOp" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.neusoft.Main" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.neusoft.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\17569\Documents\GitHub\jiangkeda\Javaforjiangkeda\libs" />
+      <recent name="C:\Users\17569\Documents\GitHub\jiangkeda\Javaforjiangkeda\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17569\Documents\GitHub\jiangkeda\Javaforjiangkeda\src" />
+      <recent name="C:\Users\17569\Documents\GitHub\jiangkeda\Javaforjiangkeda\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JDBCDmeo6">
+    <configuration name="JDBCDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.JDBCDemo3" />
       <module name="Javaforjiangkeda" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDBCDmeo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.JDBCDmeo4" />
+      <module name="Javaforjiangkeda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDmeo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.JDBCDmeo5" />
+      <module name="Javaforjiangkeda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDmeo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.JDBCDmeo6" />
+      <module name="Javaforjiangkeda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDmeo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.JDBCDmeo7" />
+      <module name="Javaforjiangkeda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JDBCDemo3" />
+      <item itemvalue="Application.JDBCDmeo4" />
+      <item itemvalue="Application.JDBCDmeo5" />
+      <item itemvalue="Application.JDBCDmeo7" />
+      <item itemvalue="Application.JDBCDmeo6" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JDBCDmeo6" />
+        <item itemvalue="Application.JDBCDmeo7" />
+        <item itemvalue="Application.JDBCDmeo5" />
+        <item itemvalue="Application.JDBCDmeo4" />
+        <item itemvalue="Application.JDBCDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +154,71 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605681447488</updated>
+      <workItem from="1605681452763" duration="6665000" />
+      <workItem from="1605748220924" duration="7490000" />
+      <workItem from="1605833720254" duration="7985000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="215" key="#Notifications" timestamp="1605840098849">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="726" y="215" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1605840098849" />
+    <state x="746" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1605754449754">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="746" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605754449754" />
+    <state x="540" y="109" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605839880527">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="540" y="109" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1605839880527" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605837395743">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605837395743" />
+    <state width="592" height="2" key="GridCell.Tab.0.bottom" timestamp="1605756559208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="592" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
+    <state width="592" height="2" key="GridCell.Tab.0.center" timestamp="1605756559208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="592" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
+    <state width="592" height="2" key="GridCell.Tab.0.left" timestamp="1605756559208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="592" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
+    <state width="592" height="2" key="GridCell.Tab.0.right" timestamp="1605756559208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="592" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
+    <state x="515" y="0" key="com.intellij.database.run.actions.ShowCsvFormatsAction$ForExport" timestamp="1605749799833">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="515" y="0" key="com.intellij.database.run.actions.ShowCsvFormatsAction$ForExport/0.0.1280.680@0.0.1280.680" timestamp="1605749799833" />
+    <state x="561" y="0" width="631" height="680" key="new project wizard" timestamp="1605835738368">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="561" y="0" width="631" height="680" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1605835738368" />
+    <state x="547" y="151" width="672" height="527" key="search.everywhere.popup" timestamp="1605756083409">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="547" y="151" width="672" height="527" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605756083409" />
   </component>
 </project>
