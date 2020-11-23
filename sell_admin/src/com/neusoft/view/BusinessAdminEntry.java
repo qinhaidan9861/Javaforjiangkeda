@@ -30,13 +30,13 @@ public class BusinessAdminEntry {
                 menu = input.nextInt();
                 switch (menu){
                     case 1:
-                        buisnessView.listAllBusiness();
+                        System.out.println("1.查看商家信息");
                         break;
                     case 2:
-                        buisnessView.selectBusiness();
+                        System.out.println("2.修改商家信息");
                         break;
                     case 3:
-                        buisnessView.saveBusiness();
+                        buisnessView.updatePassword(business.getBusinessId());
                         break;
                     case 4:
                         buisnessView.removeBusiness();

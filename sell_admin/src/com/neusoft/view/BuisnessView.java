@@ -10,4 +10,5 @@ public interface BuisnessView {
     public void removeBusiness();
 
     public Business login();
+    public  void updatePassword(Integer businessId);
 }
