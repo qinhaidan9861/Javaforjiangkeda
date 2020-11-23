@@ -156,7 +156,7 @@
       <updated>1605681447488</updated>
       <workItem from="1605681452763" duration="6665000" />
       <workItem from="1605748220924" duration="7490000" />
-      <workItem from="1605833720254" duration="7985000" />
+      <workItem from="1605833720254" duration="9488000" />
     </task>
     <servers />
   </component>
@@ -192,22 +192,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605837395743" />
-    <state width="592" height="2" key="GridCell.Tab.0.bottom" timestamp="1605756559208">
+    <state width="963" height="182" key="GridCell.Tab.0.bottom" timestamp="1605857644962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="592" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
-    <state width="592" height="2" key="GridCell.Tab.0.center" timestamp="1605756559208">
+    <state width="963" height="182" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605857644962" />
+    <state width="963" height="182" key="GridCell.Tab.0.center" timestamp="1605857644962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="592" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
-    <state width="592" height="2" key="GridCell.Tab.0.left" timestamp="1605756559208">
+    <state width="963" height="182" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605857644962" />
+    <state width="963" height="182" key="GridCell.Tab.0.left" timestamp="1605857644962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="592" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
-    <state width="592" height="2" key="GridCell.Tab.0.right" timestamp="1605756559208">
+    <state width="963" height="182" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605857644962" />
+    <state width="963" height="182" key="GridCell.Tab.0.right" timestamp="1605857644962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="592" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605756559208" />
+    <state width="963" height="182" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605857644962" />
     <state x="515" y="0" key="com.intellij.database.run.actions.ShowCsvFormatsAction$ForExport" timestamp="1605749799833">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
