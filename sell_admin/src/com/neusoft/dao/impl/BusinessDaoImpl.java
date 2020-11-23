@@ -153,4 +153,34 @@ public  int removeBusiness(String businessName){
         }
         return business;
     }
+
+    @Override
+    public Business getBusinessByIdAndPassword(Integer businessId, String password) {
+        Business business = null;
+        String sql = "select * from business where businessId = ? and password = ? ";
+        try {
+            conn = JDBCUtils.getConnection();
+            pst = conn.prepareStatement(sql);
+            pst.setInt(1, businessId);
+            pst.setString(2, password);
+            rs = pst.executeQuery();
+            while (rs.next()){
+                business = new Business();
+                business.setBusinessId(rs.getInt("businessId"));
+                business.setPassword(rs.getString("password"));
+                business.setBusinessName(rs.getString("businessName"));
+                business.setBusinessAddress(rs.getString("businessAddress"));
+                business.setBusinessExplain(rs.getString("businessExplain"));
+                business.setStartPrice(rs.getDouble("starPrice"));
+                business.setDeliveryPrice(rs.getDouble("deliveryPrice"));
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            JDBCUtils.close(rs, pst, conn);
+        }
+
+        return business;
+    }
 }
