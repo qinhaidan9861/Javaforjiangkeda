@@ -46,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -157,6 +157,7 @@
       <workItem from="1605681452763" duration="6665000" />
       <workItem from="1605748220924" duration="7490000" />
       <workItem from="1605833720254" duration="9488000" />
+      <workItem from="1606093705743" duration="53000" />
     </task>
     <servers />
   </component>
