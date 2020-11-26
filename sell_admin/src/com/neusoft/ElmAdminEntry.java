@@ -1,7 +1,9 @@
-package com.neusoft.view;
+package com.neusoft;
 
 import com.neusoft.domain.Admin;
 
+import com.neusoft.view.AdminView;
+import com.neusoft.view.BuisnessView;
 import com.neusoft.view.imlp.AdminViewImpl;
 import com.neusoft.view.imlp.BusinessViewImpl;
 
