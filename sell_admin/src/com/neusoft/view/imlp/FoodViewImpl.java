@@ -40,14 +40,14 @@ public class FoodViewImpl implements FoodView {
         businessId = input.nextInt();
 
         FoodDao dao = new FoodDaoImpl();
-        Food food1= new Food(foodId,foodName,foodExplain,foodPrice,businessId);
+        Food food1 = new Food(foodId, foodName, foodExplain, foodPrice, businessId);
         int result = dao.saveFood(food1);
         // 根据id进行查询， 然后进行回显
-        if (result >0){
+        if (result > 0) {
             System.out.println("保存成功");
-            Food food =dao.getFoodById(businessId);
+            Food food = dao.getFoodById(businessId);
             System.out.println(food);
-        }else {
+        } else {
             System.out.println("新建食品失败");
         }
     }
@@ -71,13 +71,13 @@ public class FoodViewImpl implements FoodView {
 
         //商品校验
         FoodDao dao = new FoodDaoImpl();
-        Food food1 = new Food(foodId,foodName,foodExcplain,foodPrice,businessId);
-        Food  food =dao.getFoodById(foodId);
-       // System.out.println(food);
+        Food food1 = new Food(foodId, foodName, foodExcplain, foodPrice, businessId);
+        Food food = dao.getFoodById(foodId);
+        // System.out.println(food);
         int res = dao.updateFood(food1);
-        if(res>0){
+        if (res > 0) {
             System.out.println("修改成功");
-        }else{
+        } else {
             System.out.println("食品信息修改失败");
         }
     }
@@ -88,11 +88,11 @@ public class FoodViewImpl implements FoodView {
         int id = input.nextInt();
         FoodDao dao = new FoodDaoImpl();
         System.out.println("确认要删除吗(y/n)");
-        if(input.next().equals("y")){
+        if (input.next().equals("y")) {
             int i = dao.removeFood(id);
-            if(i == 1){
+            if (i == 1) {
                 System.out.println("删除成功");
-            }else{
+            } else {
                 System.out.println("删除失败");
             }
         }

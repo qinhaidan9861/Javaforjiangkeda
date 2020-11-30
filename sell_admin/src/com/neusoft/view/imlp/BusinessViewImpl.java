@@ -10,13 +10,14 @@ import java.util.Scanner;
 
 public class BusinessViewImpl implements BuisnessView {
     private Scanner input = new Scanner(System.in);
+
     @Override
     public void listAllBusiness() {
-       BusinessDao dao = new BusinessDaoImpl();
-       List<Business> list = dao.listBusiness(null,null);
-        System.out.println("商家编号"+"\t"+"商家名称"+"\t"+"商家地址"+"\t"+"商家备注"+"\t"+"商家配送费"+"\t"+"商家起送费");
-        for (Business b :list){
-            System.out.println(b.getBusinessId() +"\t"+b.getBusinessName()+"\t"+b.getBusinessAddress()+"\t"+b.getBusinessExplain()+"\t"+b.getDeliveryPrice()+"\t"+b.getStartPrice());
+        BusinessDao dao = new BusinessDaoImpl();
+        List<Business> list = dao.listBusiness(null, null);
+        System.out.println("商家编号" + "\t" + "商家名称" + "\t" + "商家地址" + "\t" + "商家备注" + "\t" + "商家配送费" + "\t" + "商家起送费");
+        for (Business b : list) {
+            System.out.println(b.getBusinessId() + "\t" + b.getBusinessName() + "\t" + b.getBusinessAddress() + "\t" + b.getBusinessExplain() + "\t" + b.getDeliveryPrice() + "\t" + b.getStartPrice());
         }
     }
 
@@ -27,22 +28,22 @@ public class BusinessViewImpl implements BuisnessView {
         String businessAddress = "";
         System.out.println("请输入是否输入商家名称关键词(y/n):");
         inputStr = input.next();
-        if (inputStr.equals("y")){
+        if (inputStr.equals("y")) {
             System.out.println("请输入商家名称关键词");
             businessName = input.next();
         }
 
         System.out.println("请输入是否输入商家地址关键词(y/n):");
         inputStr = input.next();
-        if (inputStr.equals("y")){
+        if (inputStr.equals("y")) {
             System.out.println("请输入商家地址关键词");
             businessAddress = input.next();
         }
         BusinessDaoImpl dao = new BusinessDaoImpl();
         List<Business> list = dao.listBusiness(businessName, businessAddress);
-        System.out.println("商家编号"+"\t"+"商家名称"+"\t"+"商家地址"+"\t"+"商家备注"+"\t"+"商家配送费"+"\t"+"商家起送费");
-        for (Business b :list){
-            System.out.println(b.getBusinessId() +"\t"+b.getBusinessName()+"\t"+b.getBusinessAddress()+"\t"+b.getBusinessExplain()+"\t"+b.getDeliveryPrice()+"\t"+b.getStartPrice());
+        System.out.println("商家编号" + "\t" + "商家名称" + "\t" + "商家地址" + "\t" + "商家备注" + "\t" + "商家配送费" + "\t" + "商家起送费");
+        for (Business b : list) {
+            System.out.println(b.getBusinessId() + "\t" + b.getBusinessName() + "\t" + b.getBusinessAddress() + "\t" + b.getBusinessExplain() + "\t" + b.getDeliveryPrice() + "\t" + b.getStartPrice());
         }
     }
 
@@ -53,11 +54,11 @@ public class BusinessViewImpl implements BuisnessView {
         BusinessDao dao = new BusinessDaoImpl();
         int businessId = dao.saveBusiness(businessName);
         // 根据id进行查询， 然后进行回显
-        if (businessId >0){
+        if (businessId > 0) {
             System.out.println("保存成功");
             Business business = dao.getBusinessById(businessId);
             System.out.println(business);
-        }else {
+        } else {
             System.out.println("新建商家失败");
         }
     }
@@ -68,11 +69,11 @@ public class BusinessViewImpl implements BuisnessView {
         int id = input.nextInt();
         BusinessDao dao = new BusinessDaoImpl();
         System.out.println("确认要删除吗(y/n)");
-        if (input.next().equals("y")){
+        if (input.next().equals("y")) {
             int i = dao.removeBusiness(id);
-            if (i == 1){
+            if (i == 1) {
                 System.out.println("删除成功");
-            }else{
+            } else {
                 System.out.println("删除失败");
             }
         }
@@ -88,7 +89,7 @@ public class BusinessViewImpl implements BuisnessView {
 
         BusinessDaoImpl dao = new BusinessDaoImpl();
 
-        return dao.getBusinessByIdAndPassword(businessId,password);
+        return dao.getBusinessByIdAndPassword(businessId, password);
     }
 
     @Override
@@ -103,15 +104,15 @@ public class BusinessViewImpl implements BuisnessView {
         System.out.println("请再次输入新密码");
         String beginNewPass = input.next();
         // 进行密码校验
-        if (!business.getPassword().equals(oldPass)){
+        if (!business.getPassword().equals(oldPass)) {
             System.out.println("你的密码蒙错了，请重新输入");
-        }else if (!newPass.equals(beginNewPass)){
+        } else if (!newPass.equals(beginNewPass)) {
             System.out.println("两次密码不一致请重新输入");
-        }else {
+        } else {
             int res = dao.updateBusinessPassword(businessId, newPass);
-            if (res>0){
+            if (res > 0) {
                 System.out.println("修改密码成功！");
-            }else {
+            } else {
                 System.out.println("修改密码失败！");
             }
         }

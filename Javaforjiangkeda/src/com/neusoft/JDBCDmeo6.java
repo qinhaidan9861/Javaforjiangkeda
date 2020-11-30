@@ -1,10 +1,12 @@
 package com.neusoft;
 
 import com.neusoft.domain.Emp;
-import  com.neusoft.utils.JDBCUtils;
+import com.neusoft.utils.JDBCUtils;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * 查询emp中的所有数据
  */
@@ -12,10 +14,11 @@ public class JDBCDmeo6 {
     public static void main(String[] args) throws Exception {
 //        List<Emp> empList = findAll();
         List<Emp> empList = findAll2();
-        for (Emp e:empList){
+        for (Emp e : empList) {
             System.out.println(e);
         }
     }
+
     // List<Emp> <>代表泛型的意思， 就是对存储数据的类型做限制
     public static List<Emp> findAll() throws Exception {
 
@@ -24,11 +27,11 @@ public class JDBCDmeo6 {
         List<Emp> list = new ArrayList<>();
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://" +
-                "localhost:3306/jiangkeda","root", "199861");
+                "localhost:3306/jiangkeda", "root", "199861");
         String sql = "select * from emp";
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(sql);
-        while ( rs.next()){
+        while (rs.next()) {
             int empno = rs.getInt(1);
             String eName = rs.getString(2);
             String job = rs.getString(3);
@@ -43,8 +46,9 @@ public class JDBCDmeo6 {
         //        8、释放资源
         stmt.close();
         conn.close();
-        return  list;
+        return list;
     }
+
     // 调用JDBCUtils 工具类进行操作
     public static List<Emp> findAll2() throws Exception {
         List<Emp> list = new ArrayList<>();
@@ -52,7 +56,7 @@ public class JDBCDmeo6 {
         String sql = "select * from emp";
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(sql);
-        while ( rs.next()){
+        while (rs.next()) {
             int empno = rs.getInt(1);
             String eName = rs.getString(2);
             String job = rs.getString(3);

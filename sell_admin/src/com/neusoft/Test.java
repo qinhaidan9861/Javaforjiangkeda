@@ -13,7 +13,7 @@ public class Test {
 //       int businessid = dao.saveBusiness("江科大食堂");
 //       System.out.println("id" + businessid);
 
-      //dao.removeBusiness(10014);
+        //dao.removeBusiness(10014);
 
 //        Business business = new Business();
 //        business.setBusinessName("真好吃");

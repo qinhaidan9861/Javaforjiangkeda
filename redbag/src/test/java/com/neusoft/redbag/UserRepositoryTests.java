@@ -18,9 +18,9 @@ public class UserRepositoryTests {
     @Test
     public void save() {
         User user = new User();
-        user.setUsername("小子");
-        user.setPassword("123");
-        user.setEmail("145659995");
+        user.setUsername("琳琳");
+        user.setPassword("1432");
+        user.setEmail("1786@qq.com");
         repository.save(user);
     }
 
@@ -46,6 +46,7 @@ public class UserRepositoryTests {
         User user = optional.get();
         System.out.println(user);
     }
+
     @Test
     public void findAll() {
         List<User> list = repository.findAll();

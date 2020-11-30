@@ -16,6 +16,7 @@ public class ElmAdminEntry {
     public static void main(String[] args) {
         run();
     }
+
     public static void run() {
 
         Scanner input = new Scanner(System.in);
@@ -41,7 +42,7 @@ public class ElmAdminEntry {
                         buisnessView.selectBusiness();
                         break;
                     case 3:
-                       buisnessView.saveBusiness();
+                        buisnessView.saveBusiness();
                         break;
                     case 4:
                         buisnessView.removeBusiness();
