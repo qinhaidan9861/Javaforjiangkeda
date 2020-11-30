@@ -35,12 +35,10 @@ public class CategoryServiceImplTest {
 
     @Test
     public void  findByCategoryTypeIn(){
-//        List<Integer> list = Arrays.asList(1, 2);
         List<ProductCategory> list = categoryService.findByCategoryTypeIn(Arrays.asList(2, 3, 21));
         for (ProductCategory category : list){
             System.out.println(category);
         }
-//        Assert.assertNotEquals(0, list.size());
         Assert.assertEquals(3, list.size());
 
     }

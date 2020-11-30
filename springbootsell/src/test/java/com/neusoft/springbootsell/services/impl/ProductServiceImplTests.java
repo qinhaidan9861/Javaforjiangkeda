@@ -33,7 +33,6 @@ public class ProductServiceImplTests {
     }
     @Test
     public void findAll(){
-//        PageRequest pageRequest = PageRequest.of(0, 2);
         PageRequest pageRequest = new PageRequest(0, 2);
         Page<ProductInfo> productInfoPage = productService.findAll(pageRequest);
         Assert.assertNotEquals(0, productInfoPage.getTotalElements());
@@ -42,12 +41,12 @@ public class ProductServiceImplTests {
     @Test
     public void save(){
         ProductInfo productInfo = new ProductInfo();
-        productInfo.setProductId("3223232");
-        productInfo.setProductName("麻辣烫");
-        productInfo.setProductPrice(new BigDecimal(15));
+        productInfo.setProductId("652");
+        productInfo.setProductName("兰州拉面");
+        productInfo.setProductPrice(new BigDecimal(55));
         productInfo.setProductStock(2323);
-        productInfo.setProductDescription("老好吃了");
-        productInfo.setProductIcon("htppxxxxx.jpg");
+        productInfo.setProductDescription("老香了");
+        productInfo.setProductIcon("htpp//www.baidu.jpg");
         productInfo.setProductStatus(0);
         productInfo.setCategoryType(2);
         ProductInfo res = productService.save(productInfo);
